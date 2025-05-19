@@ -9,6 +9,12 @@ Run a reverse proxy using nginx on Heroku.
 Use the [Deploy to Heroku](https://heroku.com/deploy) button above to create a
 copy of the app, then configure the UPSTREAM_SERVER config variable.
 
+## Development
+
+```bash
+heroku buildpacks:add --app APP_NAME heroku-community/nginx
+```
+
 ## Credits
 
 Updated to heroku-16 stack and recent community build pack for nginx.
